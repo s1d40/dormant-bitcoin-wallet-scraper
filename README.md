@@ -17,22 +17,20 @@ This Python script scrapes dormant Bitcoin wallet addresses from various pages o
 - Requests
 
 You can install the required packages using pip:
-```bash
+
 pip install beautifulsoup4 requests
 Clone the Repository
 First, clone this repository to your local machine using the following command:
 
-bash
-Copy code
-git clone https://github.com/<YourGitHubUsername>/dormant-bitcoin-wallet-scraper.git
-cd dormant-bitcoin-wallet-scraper
-Usage
-To run the script, execute the following command in your terminal:
 
-bash
 Copy code
-python scrape_bitcoin_addresses.py
+git clone https://github.com/s1d40/dormant-bitcoin-wallet-scraper.git
+cd dormant-bitcoin-wallet-scraper
+
+python wallet-scraper.py
 This will start the scraping process, and the script will print out the URLs it is scraping. Once completed, it will save the unique Bitcoin addresses to bitcoin_addresses.txt in the project directory.
+
+*Note: This is a very simple script that works only on tables from https://bitinfocharts.com/top-100-dormant_9y-bitcoin-addresses.html, it will scrape from 2y to 9y. You might need to edit the script for it to work on other websites.
 
 Contributing
 Feel free to fork the project and submit pull requests. If you find any issues or have suggestions for improvement, please open an issue in the repository.
