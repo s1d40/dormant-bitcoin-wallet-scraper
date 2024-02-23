@@ -38,13 +38,14 @@ This will start the scraping process, and the script will print out the URLs it 
 Contributing
 
 
-Wanna buy me a coffee?
-
-ETH: 0x594856Bc399E799edF4Ce57153a8305698156221
-
-
 Feel free to fork the project and submit pull requests. If you find any issues or have suggestions for improvement, please open an issue in the repository.
 
 License
 
 This project is open source and available under the MIT License.
+
+
+
+Wanna buy me a coffee?
+
+ETH: 0x594856Bc399E799edF4Ce57153a8305698156221
